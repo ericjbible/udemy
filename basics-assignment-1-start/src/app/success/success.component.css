@@ -1,0 +1,8 @@
+p {
+  background-color: darkgreen;
+  color: limegreen;
+  border-radius: 10px;
+  text-decoration: underline;
+  padding: 10px;
+  text-transform: uppercase;
+ }
