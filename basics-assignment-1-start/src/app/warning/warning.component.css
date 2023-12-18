@@ -1,6 +1,8 @@
 p {
   background-color: darkred;
   color: lightpink;
+  width: 50%;
+  margin: 10px auto;
   border-radius: 10px;
   text-decoration: underline;
   padding: 10px;
