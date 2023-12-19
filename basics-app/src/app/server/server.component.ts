@@ -5,9 +5,9 @@ import { Component } from '@angular/core'
   templateUrl: './server.component.html',
   styles: [`
     .offline {
-      color: yellow;
+      color: green;
     }
-    
+
     .online {
       color: #fff;
     }
