@@ -1,3 +1,7 @@
 .hidden-display {
   display: none;
 }
+
+.text-color {
+  color: white;
+}

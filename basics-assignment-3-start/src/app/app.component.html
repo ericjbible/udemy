@@ -14,4 +14,11 @@
   <button class="btn btn-primary" (click)="onDisplayHidden()">Display Details</button>
   <hr>
   <p [ngClass]="{'hidden-display': !buttonClick}">Jacob Jingleheimer Schmidt</p>
+  <hr>
+  <p
+    *ngFor="let click of clickArray"
+    [ngStyle]="{'background-color': this.clickArray[click] >= 5 ? getColor() : white}"
+    [ngClass]="{'text-color': this.clickArray[click] >= 5 ? true : false}">
+    Button has been clicked {{ this.clickArray[click] || 1 }} time(s).
+  </p>
 </div>

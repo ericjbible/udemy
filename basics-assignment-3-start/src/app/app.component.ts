@@ -21,4 +21,7 @@ export class AppComponent {
     this.clickArray.push(this.arrayClickCount);
     console.log(this.clickArray);
   }
+  getColor() {
+    return this.arrayClickCount >= 5 ? 'blue' : 'white';
+  }
 }
